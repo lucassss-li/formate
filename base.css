@@ -1,0 +1,360 @@
+@charset "utf-8";
+/*-------------------------------------------------*/
+
+/* = Reset
+/*-------------------------------------------------*/
+
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+sfooter,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Microsoft YaHei', 'Myriad Pro';
+    color: #fff;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input,
+select,
+textarea {
+    outline: none;
+}
+
+input {
+    font-family: 'Microsoft YaHei', 'Myriad Pro';
+}
+
+/*-------------------------------------------------*/
+
+/* = Main Content Styles
+
+/*-------------------------------------------------*/
+
+address {
+    font-style: italic;
+}
+
+abbr[title],
+acronym[title],
+dfn[title] {
+    cursor: help;
+    border-bottom: 0.1rem dotted #666;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em,
+dfn,
+cite {
+    font-style: italic;
+}
+
+dfn {
+    font-weight: bold;
+}
+
+sup {
+    font-size: 0.05rem;
+    vertical-align: top;
+}
+
+sub {
+    font-size: 1.1rem;
+    vertical-align: bottom;
+}
+
+small {
+    font-size: 1.1rem;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+ins {
+    text-decoration: underline;
+}
+
+code,
+pre {
+    line-height: 1.8rem;
+}
+
+var,
+kbd,
+samp,
+code,
+pre {
+    font: 1.1rem/1.9rem;
+    color: #333;
+    background: #f8f8f8;
+}
+
+kbd {
+    font-weight: bold;
+}
+
+samp,
+var {
+    font-style: italic;
+}
+
+pre {
+    white-space: pre;
+    overflow: auto;
+    padding: 1rem;
+    margin: 4rem;
+    clear: both;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    border-radius: 0.3rem;
+}
+
+code {
+    padding: 0.3rem;
+}
+
+caption {
+    text-align: left;
+}
+
+th,
+a {
+    text-decoration: none;
+    transition: color 0.2s linear;
+    -moz-transition: color 0.2s linear;
+    -webkit-transition: color 0.2s linear;
+    -o-transition: color 0.2s linear;
+    outline: none;
+    color: #4381e6;
+}
+
+a:hover {
+    color: #3271d6;
+}
+
+p {
+    color: #4d4d4d;
+    line-height: 0.2rem;
+}
+
+#container {
+    width: 9.6rem;
+    margin: auto;
+}
+
+.clearfix:after {
+    content: '.';
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+/*-------------------------------------------------*/
+
+/* = Background
+/*-------------------------------------------------*/
+
+.background_c1 {
+    background: #0078d7;
+}
+
+.background_c2 {
+    background: #a9aa44;
+}
+
+.background_c3 {
+    background: #26a866;
+}
+
+.background_c4 {
+    background: #00bebc;
+}
+
+.background_c5 {
+    background: #d07e34;
+}
+
+.background_c6 {
+    background: #86abc9;
+}
+
+.background_c7 {
+    background: #e36d6d;
+}
+
+.background_c8 {
+    background: #577b98;
+}
+
+.background_c9 {
+    background: #9ac57e;
+}
+
+.background_c10 {
+    background: #ce9460;
+}
+
+::-webkit-scrollbar {
+    width: 0.05rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a9a9a9;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: #a9a9a9;
+}
+
+/*-------------------------------------------------*/
+
+/* = Search Bar
+
+/*-------------------------------------------------*/
+
+/*-------------------------------------------------*/
+
+/* = Sub Menu
+
+/*-------------------------------------------------*/
+
+/*-------------------------------------------------*/
+
+/* = Content
+
+/*-------------------------------------------------*/
+
+/*-------------------------------------------------*/
+
+/* = Bottom style
+
+/*-------------------------------------------------*/
